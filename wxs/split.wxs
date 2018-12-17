@@ -1,0 +1,14 @@
+//字符串分割
+var splits = function (val) {
+  return val.split(",")[0];
+}
+module.exports.splits = splits;
+
+
+var splitsArray = function (val) {
+  return val.split(",");
+}
+module.exports.splitsArray = splitsArray;
+
+
+

@@ -1,0 +1,41 @@
+{
+  "pages":[
+    "pages/product_homePage/product_homePage",
+    "pages/shoppingCard/shoppingCard",
+    "pages/my/my",
+    "pages/product_details/product_details"
+        
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#f0145a",
+    "navigationBarTitleText": "哈哈哈11",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/product_homePage/product_homePage",
+      "text": "个人专区",
+      "iconPath": "pages/images/个人专区.png",
+      "selectedIconPath": "pages/images/个人专区选中.png"
+    },
+    {
+      "pagePath": "pages/shoppingCard/shoppingCard",
+      "text": "购物车",
+      "iconPath": "pages/images/购物车_normal.png",
+      "selectedIconPath": "pages/images/购物车_sel.png"
+    }
+    ,{
+      "pagePath": "pages/my/my",
+      "text": "个人中心",
+      "iconPath": "pages/images/我_normal.png",
+      "selectedIconPath": "pages/images/我_sel.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

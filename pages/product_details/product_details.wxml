@@ -1,0 +1,12 @@
+<wxs src="../../wxs/split.wxs" module="tool" />
+
+<swiper indicator-dots="true"
+autoplay="true" interval="{{2500}}" duration="{{500}}" circular="true">
+
+<block wx:for="{{tool.splitsArray(detailsArray.commodityBanner)}}">
+<swiper-item>
+<image src="{{item}}" class="slide-image" width="355" height="150"/>
+</swiper-item>
+</block>
+
+</swiper>
