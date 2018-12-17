@@ -12,7 +12,7 @@ Page({
       },
       {
         code: "0002",
-        goodsName: '汽车玻璃水大瓶雨刷精车用雨刮水清洁剂清洗液除油膜 2L……',
+        goodsName: '名字你工作',
         goodsApply: '适用于各种型号的车辆',
         goodsPrice: '500',
         num: '1',
